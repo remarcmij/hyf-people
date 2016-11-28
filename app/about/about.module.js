@@ -10,7 +10,7 @@
         $stateProvider
             .state('about', {
                 url: '/about',
-                templateUrl: '/about/about.template.html',
+                templateUrl: '/app/about/about.template.html',
                 controller: 'AboutController as $ctrl'
             });
     }

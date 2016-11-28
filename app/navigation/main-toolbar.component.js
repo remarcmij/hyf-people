@@ -3,7 +3,7 @@
 
     angular.module('app.navigation')
         .component('hyfMainToolbar', {
-            templateUrl: '/navigation/main-toolbar.template.html',
+            templateUrl: '/app/navigation/main-toolbar.template.html',
             bindings: {
                 title: '<',
                 openSideNav: '&'

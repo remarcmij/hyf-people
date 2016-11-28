@@ -180,7 +180,7 @@
             "name": "Student 1",
             "role": "student",
             "organisation": "Hack Your Future Amsterdam",
-            "pictureUrl": "/assets/avatars/student1.png",
+            "pictureUrl": "/app/assets/avatars/student1.png",
             "twitterUrl": "",
             "linkedInUrl": ""
         },
@@ -189,7 +189,7 @@
             "name": "Student 2",
             "role": "student",
             "organisation": "Hack Your Future Amsterdam",
-            "pictureUrl": "/assets/avatars/student2.png",
+            "pictureUrl": "/app/assets/avatars/student2.png",
             "twitterUrl": "",
             "linkedInUrl": ""
         },
@@ -198,7 +198,7 @@
             "name": "Hasan Shahoud",
             "role": "student",
             "organisation": "Hack Your Future Amsterdam",
-            "pictureUrl": "/assets/avatars/student3.png",
+            "pictureUrl": "/app/assets/avatars/student3.png",
             "twitterUrl": "",
             "linkedInUrl": ""
         },
@@ -207,7 +207,7 @@
             "name": "Student 4",
             "role": "student",
             "organisation": "Hack Your Future Amsterdam",
-            "pictureUrl": "/assets/avatars/student4.png",
+            "pictureUrl": "/app/assets/avatars/student4.png",
             "twitterUrl": "",
             "linkedInUrl": ""
         }

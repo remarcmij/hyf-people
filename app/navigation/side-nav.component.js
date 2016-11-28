@@ -3,7 +3,7 @@
 
     angular.module('app.navigation')
         .component('hyfSideNav', {
-            templateUrl: '/navigation/side-nav.template.html',
+            templateUrl: '/app/navigation/side-nav.template.html',
             bindings: {
                 title: '<'
             },

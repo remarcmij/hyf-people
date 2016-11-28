@@ -3,7 +3,7 @@
 
     angular.module('app.people')
         .component('hyfPersonItem', {
-            templateUrl: '/people/person-item.template.html',
+            templateUrl: '/app/people/person-item.template.html',
             bindings: {
                 person: '<',
                 onClick: '&'

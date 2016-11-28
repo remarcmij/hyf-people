@@ -3,7 +3,7 @@
 
     angular.module('app.navigation')
         .component('hyfChildToolbar', {
-            templateUrl: '/navigation/child-toolbar.template.html',
+            templateUrl: '/app/navigation/child-toolbar.template.html',
             bindings: {
                 title: '<',
                 parentState: '@'

@@ -10,12 +10,12 @@
         $stateProvider
             .state('home', {
                 url: '/',
-                templateUrl: '/people/people.template.html',
+                templateUrl: '/app/people/people.template.html',
                 controller: 'PeopleController as $ctrl'
             })
             .state('person', {
                 url: '/person/:id',
-                templateUrl: '/people/person-detail.template.html',
+                templateUrl: '/app/people/person-detail.template.html',
                 controller: 'PersonDetailController as $ctrl'
             });
     }
