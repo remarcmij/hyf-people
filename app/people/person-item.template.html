@@ -1,0 +1,8 @@
+<md-list-item class="md-3-line" ng-click="$ctrl.onClick({id: $ctrl.person.id})">
+    <img ng-src="{{$ctrl.person.pictureUrl}}" class="md-avatar" alt="Photo" />
+    <div class="md-list-item-text" layout="column">
+        <h3>{{$ctrl.person.name}}</h3>
+        <p>{{$ctrl.getRoleTitle($ctrl.person.role)}}</p>
+        <p>{{$ctrl.person.organisation}}</p>
+    </div>
+</md-list-item>

@@ -1,0 +1,33 @@
+<div flex layout="column" layout-fill>
+
+    <hyf-child-toolbar title="$ctrl.roleTitle" parent-state="home"></hyf-child-toolbar>
+
+    <md-content id="content" flex layout-margin>
+        <md-card ng-if="$ctrl.person" flex-offset-gt-sm="20" flex-gt-sm="60">
+            <md-card-title>
+                <md-card-title-text>
+                    <span class="md-headline">{{::$ctrl.person.name}}</span>
+                    <span class="md-subhead">{{::$ctrl.roleTitle}}</span>
+                    <span class="md-subhead">{{::$ctrl.person.organisation}}</span>
+                </md-card-title-text>
+                <md-card-title-media>
+                    <div class="md-media-lg">
+                        <img ng-src="{{$ctrl.person.pictureUrl}}" alt="Photo">
+                    </div>
+                </md-card-title-media>
+            </md-card-title>
+            <md-card-actions layout="row" layout-align="end center">
+                <md-button ng-if="$ctrl.person.twitterUrl" class="md-icon-button md-accent" ng-click="$ctrl.openExternalUrl($ctrl.person.twitterUrl)">
+                    <i class="fa fa-lg fa-twitter" aria-label="Goto Twitter"></i>
+                </md-button>
+                <md-button ng-if="$ctrl.person.linkedInUrl" class="md-icon-button md-accent" ng-click="$ctrl.openExternalUrl($ctrl.person.linkedInUrl)">
+                    <i class="fa fa-lg fa-linkedin" aria-label="Goto LinkedIn"></i>
+                </md-button>
+            </md-card-actions>
+            <md-card-content ng-if="$ctrl.person.bio">
+                <div ng-bind-html="$ctrl.person.bio" class="md-body-1"></div>
+            </md-card-content>
+        </md-card>
+    </md-content>
+
+</div>

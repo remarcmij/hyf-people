@@ -1,0 +1,215 @@
+{
+    "persons": [{
+            "id": 1,
+            "name": "Arshad Shamsi",
+            "role": "staff",
+            "organisation": "Hack Your Future",
+            "pictureUrl": "http://www.hackyourfuture.net/images/foto-arshad.png",
+            "twitterUrl": "https://twitter.com/ArshadShamsi70",
+            "linkedInUrl": "https://www.linkedin.com/profile/view?id=AAkAAAAQxzcB1l3OP2aqG3X1yrvz5Y3SAKizdhI&authType=NAME_SEARCH&authToken=rCPe&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A1099575%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1449656027106%2Ctas%3Aarshad",
+            "bio": "<p>My personal mission is to 'free people from their prison of self-interest'.</p><p>I believe every human wants to do meaningful work. Meaningful work always benefits others and not yourself, but it gives you happiness in return. Only when people are freed from self-interest, they can view the world in abundance and build purpose driven organizations that do meaningful work.</p><p>The world is screaming for purpose, as the current economic paradigm is no longer sustainable.</p><p>Through 'the science of happiness’ and social entrepreneurship I want to fulfil this mission.</p><p>I am an optimist at heart and my peers see me as a kind and inspirational 'goal getter'. My social and communication skills and multicultural background enable me to build bridges between people with (cultural) differences.</p><p>My dream is to build a sustainable world in which my two lovely daughters can live happy and purposeful lives.</p>"
+        },
+        {
+            "id": 2,
+            "name": "Gijs Corstens",
+            "role": "staff",
+            "organisation": "Hack Your Future",
+            "pictureUrl": "http://www.hackyourfuture.net/images/foto-gijs.png",
+            "twitterUrl": "https://twitter.com/Gijscor",
+            "linkedInUrl": "https://www.linkedin.com/profile/view?id=AAMAAAL90T0By5HEgds4FFSQpJu6ekGtOYs1egQ&trk=hp-identity-name",
+            "bio": "<p>Founder of refugee coding school HackYourFuture.</p>"
+        },
+        {
+            "id": 3,
+            "name": "Daan Aerts",
+            "role": "staff",
+            "organisation": "Hack Your Future",
+            "pictureUrl": "http://www.hackyourfuture.net/images/foto-Daan.png",
+            "twitterUrl": "https://twitter.com/daanaerts",
+            "linkedInUrl": "https://www.linkedin.com/profile/view?id=AAkAAA7iVi4B36i3C8tPFrts7RcFTHzfOJC3kBU&authType=NAME_SEARCH&authToken=4Gd9&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A249714222%2CauthType%3ANAME_SEARCH%2Cidx%3A1-2-2%2CtarId%3A1449655820847%2Ctas%3Adaan",
+            "bio": "<p>Entrepreneur. Thinks and works on technical and social innovation. Wants life to go beyond earth.</p>"
+        },
+        {
+            "id": 4,
+            "name": "Iman Haghighirad",
+            "role": "staff",
+            "organisation": "Hack Your Future",
+            "pictureUrl": "http://www.hackyourfuture.net/images/iman-foto.png",
+            "twitterUrl": "",
+            "linkedInUrl": "https://www.linkedin.com/profile/view?id=AAkAAAp04VkBPWbYqjGMWsPTNNMSrKIkF_mrhKA&authType=NAME_SEARCH&authToken=92Hs&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A175432025%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1449655479927%2Ctas%3AIman%20Haghighirad",
+            "bio": "<p>Having impact on people and society is something that I highly value. My distinctiveness can be described by strong communication skills, interpersonal sensitivity, analytical capability and my sense of humor. I take pride in helping others and leading by example based on a professional sports mentality.</p><p>Member of the IT Strategy and Governance team at Quint Wellington Redwood Group. Specialized in sourcing questions ranging from advisory on sourcing strategies, benchmarking to full blown project leadership of (European) tenders.</p>"
+        },
+        {
+            "id": 5,
+            "name": "Ahmad Kabakibi",
+            "role": "mentor",
+            "organisation": "Software Engineer from Syria",
+            "pictureUrl": "http://www.hackyourfuture.net/images/foto-Ahmad.png",
+            "twitterUrl": "",
+            "linkedInUrl": "https://nl.linkedin.com/in/ahmadkabakibi",
+            "bio": "<p>I’m a software engineer specialized in full stack development with awesome tech skills, hefty product development experience and the ability to thrive in a fast-paced environment, looking to create world-class applications with AI as part of a lean and mean team at an innovative startup.</p>"
+        },
+        {
+            "id": 6,
+            "name": "Yousef El-Dardiry",
+            "role": "mentor",
+            "organisation": "Hack Your Future Amsterdam",
+            "pictureUrl": "http://www.hackyourfuture.net/images/foto-Yousef.png",
+            "twitterUrl": "",
+            "linkedInUrl": "https://nl.linkedin.com/in/yousefed"
+        },
+        {
+            "id": 7,
+            "name": "Machiel Visser",
+            "role": "mentor",
+            "organisation": "Hack Your Future Amsterdam",
+            "pictureUrl": "http://www.hackyourfuture.net/images/foto-machiel.png",
+            "twitterUrl": "",
+            "linkedInUrl": "https://nl.linkedin.com/in/machielvisser"
+        },
+        {
+            "id": 8,
+            "name": "Hadi Mansoraty",
+            "role": "mentor",
+            "organisation": "Hack Your Future from Syria",
+            "pictureUrl": "http://www.hackyourfuture.net/images/foto-hadi.png",
+            "twitterUrl": "",
+            "linkedInUrl": "https://tr.linkedin.com/in/hadi-mansoraty-35160aa4"
+        },
+        {
+            "id": 9,
+            "name": "Joost Lubach",
+            "role": "mentor",
+            "organisation": "Hack Your Future Amsterdam",
+            "pictureUrl": "http://www.hackyourfuture.net/images/foto-joost.png",
+            "twitterUrl": "",
+            "linkedInUrl": "https://nl.linkedin.com/in/yoazt"
+        },
+        {
+            "id": 10,
+            "name": "Thom van Gessel",
+            "role": "mentor",
+            "organisation": "Hack Your Future Amsterdam",
+            "pictureUrl": "http://www.hackyourfuture.net/images/foto-Thom.png",
+            "twitterUrl": "",
+            "linkedInUrl": "https://nl.linkedin.com/in/thomvangessel/en"
+        },
+        {
+            "id": 11,
+            "name": "Michael Trouw",
+            "role": "mentor",
+            "organisation": "Hack Your Future Amsterdam",
+            "pictureUrl": "http://www.hackyourfuture.net/images/foto-MichaelTrouw.png",
+            "twitterUrl": "",
+            "linkedInUrl": "http://www.hackyourfuture.net/#"
+        },
+        {
+            "id": 12,
+            "name": "Dwight Gunning",
+            "role": "mentor",
+            "organisation": "Hack Your Future Amsterdam",
+            "pictureUrl": "http://www.hackyourfuture.net/images/foto-Dwight.png",
+            "twitterUrl": "",
+            "linkedInUrl": "https://nl.linkedin.com/in/dwightgunning"
+        },
+        {
+            "id": 13,
+            "name": "Aksel Ethembabaoglu",
+            "role": "mentor",
+            "organisation": "Hack Your Future Amsterdam",
+            "pictureUrl": "http://www.hackyourfuture.net/images/foto-Aksel.png",
+            "twitterUrl": "",
+            "linkedInUrl": "https://nl.linkedin.com/in/aksel-ethembabaoglu-31596515"
+        },
+        {
+            "id": 14,
+            "name": "Mark Teisman",
+            "role": "mentor",
+            "organisation": "Hack Your Future Amsterdam",
+            "pictureUrl": "http://www.hackyourfuture.net/images/foto-Mark.png",
+            "twitterUrl": "",
+            "linkedInUrl": "https://nl.linkedin.com/in/mark-teisman-b3201359"
+        },
+        {
+            "id": 15,
+            "name": "Renzo Poddighe",
+            "role": "mentor",
+            "organisation": "Hack Your Future Amsterdam",
+            "pictureUrl": "http://www.hackyourfuture.net/images/foto-renzo.png",
+            "twitterUrl": "",
+            "linkedInUrl": "http://www.hackyourfuture.net/#"
+        },
+        {
+            "id": 16,
+            "name": "Maartje Kruijt",
+            "role": "mentor",
+            "organisation": "Hack Your Future Amsterdam",
+            "pictureUrl": "http://www.hackyourfuture.net/images/maartje.png",
+            "twitterUrl": "",
+            "linkedInUrl": "https://nl.linkedin.com/in/maartje-kruijt-185ab2116"
+        },
+        {
+            "id": 17,
+            "name": "Pablo Villoslada Puigcerber",
+            "role": "mentor",
+            "organisation": "Hack Your Future Amsterdam",
+            "pictureUrl": "http://www.hackyourfuture.net/images/Pablo.png",
+            "twitterUrl": "",
+            "linkedInUrl": "https://nl.linkedin.com/in/puigcerber/en"
+        },
+        {
+            "id": 18,
+            "name": "Roel Witteman",
+            "role": "mentor",
+            "organisation": "Hack Your Future Amsterdam",
+            "pictureUrl": "http://www.hackyourfuture.net/images/roel.png",
+            "twitterUrl": "",
+            "linkedInUrl": "https://nl.linkedin.com/in/roel-witteman-79a92565/en"
+        },
+        {
+            "id": 19,
+            "name": "Hannes Mühleisen",
+            "role": "mentor",
+            "organisation": "Hack Your Future Amsterdam",
+            "pictureUrl": "http://www.hackyourfuture.net/images/hannes.png",
+            "twitterUrl": "",
+            "linkedInUrl": "http://hannes.muehleisen.org/"
+        },
+        {
+            "id": 20,
+            "name": "Student 1",
+            "role": "student",
+            "organisation": "Hack Your Future Amsterdam",
+            "pictureUrl": "/assets/avatars/student1.png",
+            "twitterUrl": "",
+            "linkedInUrl": ""
+        },
+        {
+            "id": 21,
+            "name": "Student 2",
+            "role": "student",
+            "organisation": "Hack Your Future Amsterdam",
+            "pictureUrl": "/assets/avatars/student2.png",
+            "twitterUrl": "",
+            "linkedInUrl": ""
+        },
+        {
+            "id": 22,
+            "name": "Hasan Shahoud",
+            "role": "student",
+            "organisation": "Hack Your Future Amsterdam",
+            "pictureUrl": "/assets/avatars/student3.png",
+            "twitterUrl": "",
+            "linkedInUrl": ""
+        },
+        {
+            "id": 23,
+            "name": "Student 4",
+            "role": "student",
+            "organisation": "Hack Your Future Amsterdam",
+            "pictureUrl": "/assets/avatars/student4.png",
+            "twitterUrl": "",
+            "linkedInUrl": ""
+        }
+    ]
+}

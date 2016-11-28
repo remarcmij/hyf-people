@@ -1,0 +1,24 @@
+<md-toolbar>
+    <div class="md-toolbar-tools" class="md-whiteframe-2dp" flex-offset-gt-sm="20" flex-gt-sm="60">
+        <md-button class="md-icon-button" ng-click="$ctrl.openSideNav()">
+            <md-icon md-font-set="material-icons">menu</md-icon>
+        </md-button>
+        <h2>
+            <span>{{::$ctrl.title}}</span>
+        </h2>
+        <span flex></span>
+        <md-menu>
+            <md-button aria-label="Options menu" class="md-icon-button" ng-click="$ctrl.openMenu($mdOpenMenu, $event)">
+                <md-icon md-font-set="material-icons">more_vert</md-icon>
+            </md-button>
+            <md-menu-content width="4">
+                <md-menu-item>
+                    <md-button ng-click="$ctrl.visitMainSite()">
+                        <md-icon><i class="fa fa-fw fa-external-link"></i></md-icon>
+                        Visit HackYourFuture
+                    </md-button>
+                </md-menu-item>
+            </md-menu-content>
+        </md-menu>
+    </div>
+</md-toolbar>
