@@ -10,14 +10,34 @@
         $stateProvider
             .state('home', {
                 url: '/',
-                templateUrl: '/app/people/people.template.html',
-                controller: 'PeopleController as $ctrl'
+                component: 'hyfPeople',
+                resolve: {
+                    persons: resolvePeople
+                }
             })
             .state('person', {
                 url: '/person/:id',
-                templateUrl: '/app/people/person-detail.template.html',
-                controller: 'PersonDetailController as $ctrl'
+                component: 'hyfPersonDetail',
+                resolve: {
+                    person: resolvePerson
+                }
             });
+    }
+
+    resolvePeople.$inject = ['peopleService'];
+
+    function resolvePeople(peopleService) {
+        return peopleService.getAllPeople();
+    }
+
+    resolvePerson.$inject = ['$stateParams', 'peopleService'];
+
+    function resolvePerson($stateParams, peopleService) {
+        return peopleService.getPersonById($stateParams.id)
+            .then(function(person) {
+                person.roleTitle = peopleService.roleTitles[person.role];
+                return person;
+            })
     }
 
 })();

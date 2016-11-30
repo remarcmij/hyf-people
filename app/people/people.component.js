@@ -2,35 +2,28 @@
     'use strict';
 
     angular.module('app.people')
-        .controller('PeopleController', PeopleController);
+        .component('hyfPeople', {
+            templateUrl: '/app/people/people.template.html',
+            bindings: {
+                persons: '<'
+            },
+            controller: PeopleController
+        });
 
-    PeopleController.$inject = ['$state', '$mdSidenav', '$mdDialog', '$window', '$log', 'appTitle', 'peopleService'];
+    PeopleController.$inject = ['$state', '$mdSidenav', '$mdDialog', '$window', '$log', 'appTitle'];
 
-    function PeopleController($state, $mdSidenav, $mdDialog, $window, $log, appTitle, peopleService) {
+    function PeopleController($state, $mdSidenav, $mdDialog, $window, $log, appTitle) {
 
         //////// View Model ////////
 
         var vm = this;
         vm.appTitle = appTitle;
-        vm.persons = [];
         vm.onClick = onClick;
         vm.openMenu = openMenu;
         vm.openSidenav = openSidenav;
         vm.visitMainSite = visitMainSite;
 
         //////// Implementation ////////
-
-        activate();
-
-        function activate() {
-            peopleService.getAllPeople()
-                .then(function(persons) {
-                    vm.persons = persons;
-                })
-                .catch(function(e) {
-                    alert(e.message)
-                });
-        }
 
         function onClick(id) {
             $state.go('person', { id: id })

@@ -10,8 +10,7 @@
         $stateProvider
             .state('about', {
                 url: '/about',
-                templateUrl: '/app/about/about.template.html',
-                controller: 'AboutController as $ctrl'
+                component: 'hyfAbout'
             });
     }
 

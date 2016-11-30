@@ -4,10 +4,10 @@ This application demonstrates some key features of Angular JS 1.5 as taught duri
 
 - Angular 1.5 components
 - services
-- ui-router
+- ui-router v1.x, exploiting the new 'route to component' and 'resolve bindings'
 - separation of functionality/feature areas into modules
 
-The sample application focusses on the front-end. In order to demonstrate how to get data from a back-end using `$http`, the `json-server` npm package is used for providing a simple API on the basis of a `json` data file. 
+The sample application focusses on the front-end. In order to demonstrate how to get data from a back-end using `$http`, the `json-server` npm package is used for providing a simple API on the basis of a `json` data file.
 
 ## User Requirements
 
@@ -30,7 +30,7 @@ In addition the IT project manager in charge has ordained these technical demand
 1. Clone the project from GitHub to a local project folder on your development machine.
 
 2. Install `json-server` as a global npm package:
-    
+
     `npm install -g json-server`
 
 3. Type the following command to start the back-end server:
