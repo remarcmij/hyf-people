@@ -12,7 +12,7 @@
 
     PeopleController.$inject = ['$state', '$mdSidenav', '$mdDialog', '$window', '$log', 'appTitle'];
 
-    function PeopleController($state, $mdSidenav, $mdDialog, $window, $log, appTitle) {
+    function PeopleController($state, $mdSidenav,  $window, appTitle) {
 
         //////// View Model ////////
 
