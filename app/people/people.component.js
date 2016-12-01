@@ -10,7 +10,7 @@
             controller: PeopleController
         });
 
-    PeopleController.$inject = ['$state', '$mdSidenav', '$mdDialog', '$window', '$log', 'appTitle'];
+    PeopleController.$inject = ['$state', '$mdSidenav', '$window', 'appTitle'];
 
     function PeopleController($state, $mdSidenav,  $window, appTitle) {
 
