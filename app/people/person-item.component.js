@@ -17,8 +17,8 @@
 
         //////// View Model ////////
 
-        var vm = this;
-        vm.getRoleTitle = getRoleTitle;
+        var ctrl = this;
+        ctrl.getRoleTitle = getRoleTitle;
 
         //////// Implementation ////////
 

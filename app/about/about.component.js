@@ -10,8 +10,8 @@
     AboutController.$inject = ['appTitle'];
 
     function AboutController(appTitle) {
-        var vm = this;
+        var ctrl = this;
 
-        vm.appTitle = appTitle;
+        ctrl.appTitle = appTitle;
     }
 })();

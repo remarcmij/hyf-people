@@ -16,12 +16,12 @@
 
         //////// View Model ////////
 
-        var vm = this;
-        vm.appTitle = appTitle;
-        vm.onClick = onClick;
-        vm.openMenu = openMenu;
-        vm.openSidenav = openSidenav;
-        vm.visitMainSite = visitMainSite;
+        var ctrl = this;
+        ctrl.appTitle = appTitle;
+        ctrl.onClick = onClick;
+        ctrl.openMenu = openMenu;
+        ctrl.openSidenav = openSidenav;
+        ctrl.visitMainSite = visitMainSite;
 
         //////// Implementation ////////
 

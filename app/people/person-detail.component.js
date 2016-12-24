@@ -16,8 +16,8 @@
 
         //////// View Model ////////
 
-        var vm = this;
-        vm.openExternalUrl = openExternalUrl;
+        var ctrl = this;
+        ctrl.openExternalUrl = openExternalUrl;
 
         //////// Implementation ////////
 

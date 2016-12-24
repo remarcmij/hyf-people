@@ -17,9 +17,9 @@
 
         //////// View Model ////////
 
-        var vm = this;
-        vm.openMenu = openMenu;
-        vm.visitMainSite = visitMainSite;
+        var ctrl = this;
+        ctrl.openMenu = openMenu;
+        ctrl.visitMainSite = visitMainSite;
 
         //////// Implementation ////////
 

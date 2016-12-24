@@ -17,8 +17,8 @@
 
         //////// View Model ////////
 
-        var vm = this;
-        vm.goBack = goBack;
+        var ctrl = this;
+        ctrl.goBack = goBack;
 
         //////// Implementation ////////
 
