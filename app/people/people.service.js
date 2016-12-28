@@ -16,12 +16,11 @@
 
         //////// Service API ////////
 
-        var service = {
+        return {
             getAllPeople: getAllPeople,
             getPersonById: getPersonById,
             roleTitles: roleTitles
         };
-        return service;
 
         //////// Implementation ////////
 
@@ -31,16 +30,12 @@
                     method: 'GET',
                     cache: true
                 })
-                .then(getAllPeopleComplete)
-                .catch(getAllPeopleFailed);
-
-            function getAllPeopleComplete(data) {
-                return data.data;
-            }
-
-            function getAllPeopleFailed(e) {
-                return handleFailure(e, 'getAllPeople');
-            }
+                .then(function(resp) {
+                    return resp.data;
+                    })
+                .catch(function(e) {
+                    return handleFailure(e, 'getAllPeople');
+                });
         }
 
         function getPersonById(id) {
@@ -49,16 +44,12 @@
                     method: 'GET',
                     cache: true
                 })
-                .then(getPersonByIdComplete)
-                .catch(getPersonByIdFailed);
-
-            function getPersonByIdComplete(resp) {
-                return resp.data;
-            }
-
-            function getPersonByIdFailed(e) {
-                return handleFailure(e, 'getPersonById');
-            }
+                .then(function(resp) {
+                    return resp.data;
+                })
+                .catch(function(e) {
+                    return handleFailure(e, 'getPersonById');
+                });
         }
 
         function handleFailure(e, funcName) {
