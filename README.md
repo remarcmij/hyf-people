@@ -43,7 +43,7 @@ In addition the IT project manager in charge has ordained these technical demand
 
     This should install all the required files and then start up a local http server at port 8000.
 
-5. Finally, point your browser to `localhost:8000`.
+5. Finally, point your browser to `localhost:8080`.
 
 ## Ideas for experimentation
 

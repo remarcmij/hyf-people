@@ -15,7 +15,7 @@
   "scripts": {
     "update-deps": "npm update",
     "prestart": "npm install",
-    "start": "http-server -a localhost -p 8000 -c-1",
+    "start": "http-server -a localhost -p 8080 -c-1",
     "json-server": "json-server --watch data/data.json"
   },
   "dependencies": {
