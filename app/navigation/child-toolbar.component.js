@@ -3,7 +3,7 @@
 
     angular.module('app.navigation')
         .component('hyfChildToolbar', {
-            templateUrl: '/app/navigation/child-toolbar.template.html',
+            templateUrl: '/app/navigation/child-toolbar.component.html',
             bindings: {
                 title: '<',
                 parentState: '@'
@@ -15,17 +15,12 @@
 
     function ChildToolbarController($state) {
 
-        //////// View Model ////////
-
         var ctrl = this;
         ctrl.goBack = goBack;
-
-        //////// Implementation ////////
 
         function goBack() {
             $state.go(this.parentState)
         }
-
     }
 
 })();

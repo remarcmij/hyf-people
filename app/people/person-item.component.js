@@ -3,7 +3,7 @@
 
     angular.module('app.people')
         .component('hyfPersonItem', {
-            templateUrl: '/app/people/person-item.template.html',
+            templateUrl: '/app/people/person-item.component.html',
             bindings: {
                 person: '<',
                 onClick: '&'
@@ -15,12 +15,8 @@
 
     function PersonItemController(peopleService) {
 
-        //////// View Model ////////
-
         var ctrl = this;
         ctrl.getRoleTitle = getRoleTitle;
-
-        //////// Implementation ////////
 
         function getRoleTitle(role) {
             return peopleService.roleTitles[role];

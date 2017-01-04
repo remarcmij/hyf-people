@@ -3,7 +3,7 @@
 
     angular.module('app.navigation')
         .component('hyfMainToolbar', {
-            templateUrl: '/app/navigation/main-toolbar.template.html',
+            templateUrl: '/app/navigation/main-toolbar.component.html',
             bindings: {
                 title: '<',
                 openSideNav: '&'
@@ -15,13 +15,9 @@
 
     function MainToolbarController($window) {
 
-        //////// View Model ////////
-
         var ctrl = this;
         ctrl.openMenu = openMenu;
         ctrl.visitMainSite = visitMainSite;
-
-        //////// Implementation ////////
 
         function openMenu($mdOpenMenu, ev) {
             $mdOpenMenu(ev);

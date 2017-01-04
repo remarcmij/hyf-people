@@ -3,7 +3,7 @@
 
     angular.module('app.about')
         .component('hyfAbout', {
-            templateUrl: '/app/about/about.template.html',
+            templateUrl: '/app/about/about.component.html',
             controller: AboutController
         });
 
@@ -11,7 +11,6 @@
 
     function AboutController(appTitle) {
         var ctrl = this;
-
         ctrl.appTitle = appTitle;
     }
 })();

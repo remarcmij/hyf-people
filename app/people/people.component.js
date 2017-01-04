@@ -3,7 +3,7 @@
 
     angular.module('app.people')
         .component('hyfPeople', {
-            templateUrl: '/app/people/people.template.html',
+            templateUrl: '/app/people/people.component.html',
             bindings: {
                 persons: '<'
             },
@@ -14,16 +14,12 @@
 
     function PeopleController($state, $mdSidenav,  $window, appTitle) {
 
-        //////// View Model ////////
-
         var ctrl = this;
         ctrl.appTitle = appTitle;
         ctrl.onClick = onClick;
         ctrl.openMenu = openMenu;
         ctrl.openSidenav = openSidenav;
         ctrl.visitMainSite = visitMainSite;
-
-        //////// Implementation ////////
 
         function onClick(id) {
             $state.go('person', { id: id })
