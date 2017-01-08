@@ -1,4 +1,4 @@
-(function() {
+(function () {
     'use strict';
 
     angular.module('app.people')
@@ -26,30 +26,26 @@
 
         function getAllPeople() {
             return $http({
-                    url: apiEndPoint + '/persons',
-                    method: 'GET',
-                    cache: true
-                })
-                .then(function(resp) {
-                    return resp.data;
-                    })
-                .catch(function(e) {
-                    return handleFailure(e, 'getAllPeople');
-                });
+                url: apiEndPoint + '/persons',
+                method: 'GET',
+                cache: true
+            }).then(function (resp) {
+                return resp.data;
+            }).catch(function (e) {
+                return handleFailure(e, 'getAllPeople');
+            });
         }
 
         function getPersonById(id) {
             return $http({
-                    url: apiEndPoint + '/persons/' + id,
-                    method: 'GET',
-                    cache: true
-                })
-                .then(function(resp) {
-                    return resp.data;
-                })
-                .catch(function(e) {
-                    return handleFailure(e, 'getPersonById');
-                });
+                url: apiEndPoint + '/persons/' + id,
+                method: 'GET',
+                cache: true
+            }).then(function (resp) {
+                return resp.data;
+            }).catch(function (e) {
+                return handleFailure(e, 'getPersonById');
+            });
         }
 
         function handleFailure(e, funcName) {
