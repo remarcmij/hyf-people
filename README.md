@@ -2,10 +2,10 @@
 
 This application demonstrates some key features of Angular JS 1.5 as taught during the Hack Your Future, Amsterdam programme. Specifically, the following are areas covered:
 
-- Angular 1.5 components
-- services
-- ui-router v1.x, exploiting the new 'route to component' and 'resolve bindings'
-- separation of functionality/feature areas into modules
+* Angular 1.5 components
+* services
+* ui-router v1.x, exploiting the new 'route to component' and 'resolve bindings'
+* separation of functionality/feature areas into modules
 
 The sample application focusses on the front-end. In order to demonstrate how to get data from a back-end using `$http`, the `json-server` npm package is used for providing a simple API on the basis of a `json` data file.
 
